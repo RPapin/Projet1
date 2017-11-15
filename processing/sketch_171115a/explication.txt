@@ -1,2 +1,0 @@
-les beugs sont du auxx differents faux contacts du circuit qui etégnais la led qui permet d'avoir les valeurs 
-de plus les fils se chevauche se qui provoque egalement ces anomalies au niveau des reslutats.
