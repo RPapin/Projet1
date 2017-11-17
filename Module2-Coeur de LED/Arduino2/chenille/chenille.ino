@@ -23,35 +23,31 @@ int h;
 void loop()
 {
   // put your main code here, to run repeatedly:
-  int i=0;
-  int j=0;
-  
-  
-  
-  
-  while (j<10)
+  int i=0; 
+  int k=0;
+  int l=0;
+  int m=0; 
+  int poul=0,
+  while (1)
  { 
-  i=random(0,9);
- 
+  for (i=0; i<10; i++)
+  {
     digitalWrite (pinLed[i], HIGH);
   
-  delay(250);
+  delay(100);
+
+   digitalWrite (pinLed[i], LOW);
   
+  delay(100);
+  
+   digitalWrite (pinLed[i], HIGH);
+  
+  delay(100);
+  for (m=1; m<10; m++)
   
     digitalWrite (pinLed[i], LOW);
   
   delay(500);
-
-  
-    digitalWrite (pinLed[i], HIGH);
-  
-  delay(250);
- 
-  
-    digitalWrite (pinLed[i], LOW);
- 
-  delay(2000);
-  j++;
  }
  
 }

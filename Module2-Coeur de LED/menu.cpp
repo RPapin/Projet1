@@ -25,4 +25,3 @@ int menu()
 		return choix;
 }
 
-
